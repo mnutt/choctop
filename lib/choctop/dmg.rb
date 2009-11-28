@@ -92,6 +92,8 @@ module ChocTop::Dmg
              set arrangement of the icon view options of container window to not arranged
              #{set_position_of_files}
              #{set_position_of_shortcuts}
+             close
+             open
              set the bounds of the container window to {#{window_bounds.join(", ")}}
              set background picture of the icon view options of container window to file "#{volume_background.gsub(/\//,':')}"
              update without registering applications
